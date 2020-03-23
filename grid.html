@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid{
+        border: 5px solid pink;
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+      div{
+          border: 5px solid gray;
+      }
+      /*
+        span과 div 아무의미도 없는 디자인을 위한 tag다
+        기본적으로 div 는block element 다
+        span 은 inline element다.
+
+        grid를 사용함으로써 왼쪽오른쪽을 구분해 줄 수 있고 아무리 많은 내용이 들어가도 딱맞게 화면이 구분된다.
+        caniuse.com 에서 css 태그를 사용가능한지 확인할 수 있다.
+      */
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>NAVIGATION</div>
+      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+  </body>
+</html>
